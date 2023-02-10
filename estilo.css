@@ -1,0 +1,140 @@
+/* CSS Styles */
+ 
+
+
+body {
+  font-family: Georgia;
+  background-color: #000000;
+  margin: 0;
+  padding: 200;
+  position: relative;
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.video-background video {
+  position: relative;
+  top: 0%;
+  left: -10%;
+  width: 250%;
+}
+  
+  #logotipo-img {
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    position: relative;
+    padding-left: 0%;
+  } 
+
+  #cafeteria-img {
+    margin-left: 250px;
+    width: 500px;
+    height: 300px;
+    border-radius: 10%;
+    border-color: #000000;
+    border-style: groove;
+  }
+  
+
+  header .container h1 {
+    float: left;
+    margin: auto 0;
+    padding-left: 200px;
+    margin-top: 1%;
+  }
+
+
+  header {
+    background-color: hsla(0, 0%, 0%, 0.678);
+    color: rgba(77, 56, 17, 0.836);
+    padding: 40px;
+  }
+
+  .logo {
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #746a49;
+    color: rgb(167, 11, 11);
+    padding: 15px;
+  }
+
+  nav a {
+    align-items: center;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    margin-right: 40px;
+    padding-right: 0%;
+  }
+
+  .container {
+    align-items: center;
+    max-width: 1000px;
+    margin: 9px auto;
+    padding: 12px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 1%;
+  }
+
+  .container h4
+  {
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    
+  }
+
+  #desayuno-img
+  {
+    height: 400px;
+    width: 500px;
+    position: relative;
+    left: 46%;
+    margin-top: -90%;
+    border-radius: 10%;
+    border-color: #000000;
+    border-style: groove;
+  }
+
+  .services
+  {
+    align-items: center;
+    background-color: #f1eeee;
+    margin: 5%;
+    position: relative;
+  }
+
+
+  footer {
+    background-color: #58410298;
+    color: rgb(12, 10, 10);
+    padding: 20px;
+    text-align: center;
+  }
+
+  footer p {
+    margin: 0;
+    padding: 0;
+  }
+
+  
