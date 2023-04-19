@@ -1,0 +1,144 @@
+header {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+  }
+
+
+  .logo {
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    color: white;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+    margin: 0 1%;
+  }
+
+  .navbar a:hover{
+    background-color: white;
+    color: #000000;
+    border-radius: 30px;
+  }
+
+  .navbar .icon {
+    display: none;
+  }
+  
+  /* Use flexbox to center the navbar links */
+  .navbar {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    align-items: center;
+    max-width: 1000px;
+    margin: 35px auto 0px auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 1%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .container h2 {
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    margin: 10% 5%;
+    
+  }
+
+  .container h3 {
+    margin: 3% 5%;
+  }
+
+  .container img {
+    margin: 5% 0 0 0;
+  }
+
+  .box {
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: rgba(2, 71, 17, 0.6);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+    font-family: Arial, sans-serif;
+    margin-bottom: 10%;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #070707;
+  }
+  
+  form input[type="text"],
+  form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 15px;
+    height: 90px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+
+  footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #011601;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ffffff;
+    margin-top: 10%;
+  }
+  
+  footer p {
+    margin: 0;
+    color: white;
+  }

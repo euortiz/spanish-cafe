@@ -1,0 +1,12 @@
+body {
+    font-family: Georgia;
+    background-color: #000000;
+    margin: 0;
+    padding: 200;
+    position: relative;
+    line-height: 40px;
+    font-size: 20px;
+    background-image: url("../Assets/cafeee.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
